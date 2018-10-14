@@ -16,7 +16,7 @@ client.on('message', function (user, userID, channelID, message, evt) {
         switch(cmd) {
             // !ping
             case 'ping':
-                bot.sendMessage({
+                client.sendMessage({
                     to: channelID,
                     message: 'Pong!'
                 });
@@ -24,7 +24,7 @@ client.on('message', function (user, userID, channelID, message, evt) {
             // Just add any case commands if you want to..
 			//zeln
 			case 'zeln':
-				bot.sendMessage({
+				client.sendMessage({
 					to: channelID,
 					message: 'Zeln is Gay!!'
 				});
