@@ -9,6 +9,8 @@
   "author": "10KBytes",
   "dependencies": {
     "discord.js": "11.1.0",
-     "request": "2.81.0"
+     "request": "2.81.0",
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^3.1.0"
   }
 }
